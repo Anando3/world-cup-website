@@ -1,13 +1,10 @@
-main {
-    width: 100%;
-    margin-top: 40px;
-}
+main {}
 
 body {
     font-family: 'Poppins', sans-serif;
-
 }
 
+/* Header style */
 .color {
     color: white;
     font-weight: 700;
@@ -22,8 +19,11 @@ body {
 
 .main-header {
     background-color: black;
-    border-radius: 10px;
-    width: ;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    height: 310px;
+
 }
 
 .header {
@@ -37,4 +37,65 @@ body {
 
 .width-img {
     width: 50%;
+    margin-left: 60px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    padding-top: 8px;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+/* container section style */
+.container {
+    border-radius: 10px;
+    width: 1020px;
+    /* padding-left: 200px; */
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    margin-top: 10px;
+    margin: 30px;
+}
+
+.coures-banner {
+    margin-top: 25px;
+
+    width: 315px;
+    height: 190px;
+}
+
+.width0 {
+    border: 1px solid gray;
+    padding: 3px;
+    padding-top: 1px;
+    margin-left: 15px;
+    border-radius: 4px;
+}
+
+.width2 {
+    font-weight: 600;
+    text-align: justify;
+
+    width: 274px;
+    height: 60px;
+}
+
+.coures-info {
+    display: flex;
+    align-items: center;
+}
+
+.coures-duration {
+    padding-right: 30px;
 }
