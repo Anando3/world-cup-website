@@ -1,0 +1,40 @@
+main {
+    width: 100%;
+    margin-top: 40px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.color {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.color1 {
+    color: white;
+    width: 50%;
+    font-size: 10px;
+}
+
+.main-header {
+    background-color: black;
+    border-radius: 10px;
+    width: ;
+}
+
+.header {
+    display: flex;
+}
+
+.width {
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.width-img {
+    width: 50%;
+}
